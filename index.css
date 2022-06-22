@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0;
+    background: lightblue;
+}
+
+caption {
+    font-weight: bold;
+    font-size: medium;
+}
+
+table {
+    width: 400px;
+    margin: 50px auto;
+    background: #1CE;
+    border-radius: 5px;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+input{
+    padding: 7px 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.result h1 {
+    text-align: start;
+}
+
+
+.result p {
+    text-align: center;
+}
